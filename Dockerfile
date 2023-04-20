@@ -37,7 +37,7 @@ COPY . ./
 
 #RUN npm install
 
-EXPOSE 8783
+EXPOSE 8652
 
 CMD [ "npm", "start" ]
 #CMD [ "npm", "run", "prod" ]

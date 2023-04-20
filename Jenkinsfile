@@ -3,7 +3,7 @@ node('') {
         checkout scm
     stage 'Build'
         sh "npm install"
-        sh "docker build -t jira-tools:local-latest -f Dockerfile ."
+        sh "docker build -t jira-tools2:local-latest -f Dockerfile ."
     stage 'Deploy'
 //         sh "docker-compose -f compose-file.yaml down -v"
         sh "docker-compose -f compose-file.yaml up -d"
