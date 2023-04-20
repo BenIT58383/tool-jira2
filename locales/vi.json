@@ -1,0 +1,11 @@
+{
+  "user.create.success": "Thêm mới nhân viên thành công",
+  "user.create.failed": "Thêm mới nhân viên thất bại",
+  "user.find.success": "Tìm kiếm nhân viên thành công",
+  "user.find.failed": "Tìm kiếm nhân viên thất bại",
+  "user.update.success": "Cập nhật nhân viên thành công",
+  "user.update.failed": "Cập nhật nhân viên thất bại",
+  "user.delete.success": "Xóa nhân viên thành công",
+  "user.delete.failed": "Xóa nhân viên thất bại",
+	"system.error": "Lỗi hệ thống"
+}

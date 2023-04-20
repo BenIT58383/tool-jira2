@@ -1,0 +1,18 @@
+version: "3.3"
+
+services:
+  jira-tools:
+    container_name: jira-tools
+    image: jira-tools:local-latest
+
+    ports:
+      - "8783:8783"
+    networks:
+      - emp-jira-net21
+
+networks:
+  emp-jira-net21:
+    driver: bridge
+#volumes:
+#  localdb:
+#    driver: local
